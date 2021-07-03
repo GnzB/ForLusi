@@ -1,0 +1,116 @@
+
+body{
+    background-color: #FFBCBC;
+    background: url("fondo2.jpg");
+   
+}
+h1{
+    color: #907FA4;
+    text-align: center ;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.teamo{
+  margin: 50px auto;
+  font-size: 100px;
+  color: #907FA4;
+  font-family: 'Zen Loop';
+  text-decoration: none;
+}
+h3{
+  color: #907FA4;
+  font-family: cursive;
+}
+p{
+    color: #4A1C40;
+    text-align: center;
+    font-family: cursive;
+}
+.gif{
+    
+    width: 50%;
+    height: 50%;
+    margin: 0px auto ;
+    padding: 0px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: #9de2f2 #deaae5;
+    box-shadow: 10px 10px 5px #deaae5 ;
+    
+   
+    
+}
+.encabezado2{
+    background: #94D0CC;
+    text-align: center;
+    color: #F38BA0;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px ;
+    
+
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+  height: 100%;
+	
+	animation: cambio 30s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 3%;
+  margin-bottom: 25%;
+	width: 40%;
+  height: 45%;
+  box-shadow: 10px 10px 5px #9de2f2;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+	
+	15% {margin-left: -100%;}
+	25% {margin-left: -100%;}
+	
+	30% {margin-left: -200%;}
+	45% {margin-left: -200%;}
+	
+	50% {margin-left: -300%;}
+	65% {margin-left: -300%;}
+
+  70% {margin-left: -400%;}
+	85% {margin-left: -400%;}
+
+  90% {margin-left: -500%;}
+	100% {margin-left: -500%;}
+}
+.canva{
+  margin: 100px auto;
+  border:5px #9de2f2 solid;
+  border-radius: 10px;
+}
+
+
+
+
+
